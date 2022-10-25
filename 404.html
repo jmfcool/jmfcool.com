@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <script type="text/javascript">
+
+            window.onload = function()
+            {
+                var s = window.location.href.split('/'),
+                    p = ['home','about', 'services', 'mobile', 'marketing', 'news', 'team', 'contact'];
+
+                for(var i=0; i<p.length; i++)
+                {
+                    if(p[i] == s[3])
+                    {
+                        window.location.href = 'https://jmfcool.com/#' + s[3];
+                        break;
+                    }
+                    else if(p[i] == s[4])
+                    {
+                        window.location.href = 'http://localhost/jmfcool.com/#' + s[4];
+                        break;
+                    }
+                    else
+                    {
+                        window.location.href = 'https://jmfcool.com/#error';
+                    }
+                }
+            };
+
+        </script>
+    </head>
+    <body></body>
+</html>

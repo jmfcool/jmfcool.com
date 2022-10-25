@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Mobile Development",
+        "target": "mobile-development",
+        "text": "We are a team of highly motivated mobile enthusiasts. Whether it's designing, developing, monetizing, or analyzing user data we strive for the most accurate and unique results. We welcome all projects and look forward to new endeavors which help us to bring your business more revenue and leads."
+    },
+    {
+        "name": "Search Engine Optimization",
+        "target": "seo",
+        "text": "SEO or Search Engine Optimization is one of the most crucial parts of any website. You can’t see it, but if you don’t have great SEO on your website it doesn’t matter how well it works or how good it looks, no one will ever find it! We can help organize your SEO, improve searches and keywords."
+    },
+    {
+        "name": "Ad Optimization",
+        "target": "ad-optimization",
+        "text": "You may think that by purchasing ads, your job is already over and the customers will start flooding in, wrong! Without correct Ad Placement and Optimization, your ads could be costing you a lot of money and producing very little in the way of tangible results. We’ll help evaluate your ad strategy and placement."
+    },
+    {
+        "name": "Markup Code",
+        "target": "markup-code",
+        "text": "If you want your website to look great and work well, then you need to ensure that you have good markup code. This will help your website function across a large variety of different devices such as laptops, computers, tablets and smartphones. We can make sure that your markup code is correct, looks good and is functional."
+    },
+    {
+        "name": "JavaScript",
+        "target": "javascript",
+        "text": "We utilize JavaScript throughout your website to create interactions between the client browsing your website and the website itself. JavaScript is responsible for creating the actions when people click on buttons, links and interact with the website. Having good JavaScript will make your website run smoothly, making for a better user experience."
+    },
+    {
+        "name": "Build Integration",
+        "target": "build-integration",
+        "text": "To make sure that all aspects of your website function together, Build Integration is a vital part. We can ensure that your Build Integration is perfect."
+    },
+    {
+        "name": "Image Optimization",
+        "target": "image-optimization",
+        "text": "We all love to have pictures and images on our websites. Many are built into the coding or theme of the website, but they take up a lot of space. Using Image and Code Optimization we can ensure that you are getting the results from the images you require, without massive amounts of space being over utilized."
+    },
+    {
+        "name": "Cascading Style Sheets",
+        "target": "cascading-style-sheets",
+        "text": "CSS or Cascading Style Sheets are what we use to define different aspects of your websites HTML coding. Having correct CSS makes your website flow smoothly and will help to create a uniform look across the entire website. With good CSS, your website will work with client’s browsers to create a faster and better user experience."
+    },
+    {
+        "name": "Pixel Perfect Code",
+        "target": "pixel-perfect-code",
+        "text": "As web developers, we are always striving to create functional, but visually satisfying websites for our clients. By creating Pixel Perfect Code, we ensure that the website they and any images will look as high-quality as possible across a wide variety of different devices."
+    },
+    {
+        "name": "SQL",
+        "target": "sql",
+        "text": "Many websites create and store a lot of data. Things like blogs, photo, and video management all need to be able to interact, sending and receiving data with clients. We can help to organize and implement a SQL strategy for your website or business."
+    },
+    {
+        "name": "PHP",
+        "target": "php",
+        "text": "PHP is a recursive acronym for PHP: Hypertext Preprocessor and is a widely-used open source general-purpose scripting language. PHP is specifically suited for web development and can be embedded into HTML. We can utilize PHP to create more detailed aspects of your website."
+    },
+    {
+        "name": "AB and MVT Optimization",
+        "target": "ab-and-mvt-optimization",
+        "text": "If you want to ensure that your call to actions are working correctly and landing pages are getting the results you need; you need to ensure that your AB and MVT Optimization is perfect! We can run a thorough analysis of each ensuring you’re getting the results you want, tweaking items to improve results."
+    },
+    {
+        "name": "No SQL",
+        "target": "no-sql",
+        "text": "If you are looking to engage with clients and customers and offer special promotions such as coupons, then you need to track and compile a lot of data. NoSQL databases are a great way to handle a large variety of variable data sets and compile them into useable information. We have a team who specializes in utilizing and implementing NoSQL."
+    },
+    {
+        "name": "Script Optimization",
+        "target": "script-optimization",
+        "text": "Your website is made up of a lot of different parts, coding, themes, etc. but all the actions on your website are run and managed by scripts. We can ensure that your scripts are functional and working smoothly to make for a better user experience."
+    },
+    {
+        "name": "API Optimization",
+        "target": "api-optimization",
+        "text": "If you want your website to function across a large variety of different mobile applications, then you need to ensure that your API Optimization is running smoothly and setup correctly. We’ll make sure that no matter what device your clients are using, the website will look and function perfectly."
+    },
+    {
+        "name": "Unit Tests",
+        "target": "unit-tests",
+        "text": "Unit Testing is a way that we can test and ensure that your website is functioning and performing to the best of its abilities. To make sure your clients are getting a great user experience, you need to ensure that every aspect of your site is performing."
+    },
+    {
+        "name": "Continuous Integration",
+        "target": "continuous-integration",
+        "text": "It is important after your website is completed and throughout the website, development stage to ensure that you have Continuous Integration. This will ensure the website or platform keeps performing as required and guarantees that any necessary updates are made."
+    },
+    {
+        "name": "Version Control System",
+        "target": "version-control-system",
+        "text": "To ensure that any files you need to send or receive are available easily and quickly, VCS is a vital part of any website or platform. We can handle all your VCS needs, making data and file retrieval easy and simple."
+    },
+    {
+        "name": "Tracking Integration",
+        "target": "tracking-integration",
+        "text": "If you understand where your customers are coming from, what they’re looking for and how they are looking for it, your business will be better situated to act on this information. Tracking Integration is a vital aspect of any web development project."
+    },
+    {
+        "name": "Brand Management",
+        "target": "brand-management",
+        "text": "Maintaining a brand and incorporating a consistent brand into any business is vital to its success. We can ensure that your Brand Management strategy is working, or help you improve it."
+    }
+]

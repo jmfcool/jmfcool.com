@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Websites",
+        "target": "websites",
+        "items": [
+            {
+                "name": "Jmfcool.js",
+                "link": "https://jmfcooljs.org",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic"
+                ]
+            },
+            {
+                "name": "RunThrough.Media",
+                "link": "https://runthrough.media/",
+                "date": "2016",
+                "skills": [
+                    "HTML",
+                    "CSS"
+                ],
+                "tags": [
+                    "Organic"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Emails",
+        "target": "emails",
+        "items": [
+            {
+                "name": "Jmfcool.com",
+                "link": "https://jmfcool.com/emails/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS"
+                ],
+                "tags": [
+                    "Remarketing"
+                ]
+            },
+            {
+                "name": "RunThrough.Media",
+                "link": "https://runthrough.media/emails/",
+                "date": "2016",
+                "skills": [
+                    "HTML",
+                    "CSS"
+                ],
+                "tags": [
+                    "Remarketing"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Landing Pages",
+        "target": "landingpages",
+        "items": [
+            {
+                "name": "mobile.jmfcool.com",
+                "link": "https://mobile.jmfcool.com",
+                "date": "2021",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Search",
+                    "Social"
+                ]
+            },
+            {
+                "name": "market.jmfcool.com",
+                "link": "https://market.jmfcool.com",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Search"
+                ]
+            },
+            {
+                "name": "crypto.jmfcool.com",
+                "link": "https://crypto.jmfcool.com",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Web Applications",
+        "target": "applications",
+        "items": [
+            {
+                "name": "skate.jmfcool.com",
+                "link": "https://skate.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "recipes.jmfcool.com",
+                "link": "https://recipes.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "reviews.jmfcool.com",
+                "link": "https://reviews.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "sober.jmfcool.com",
+                "link": "https://sober.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "network.jmfcool.com",
+                "link": "https://network.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "bills.jmfcool.com",
+                "link": "https://bills.jmfcool.com/",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            }
+        ]
+    }
+]

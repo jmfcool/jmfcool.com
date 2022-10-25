@@ -1,0 +1,169 @@
+[
+    {
+        "target": "appSlider",
+        "items": [
+            {
+                "name": "Sober",
+                "picture": {
+                    "large": "app-sober-large.webp",
+                    "small": "app-sober-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/sober-by-jmfcool-com/id1596628114",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "https://play.google.com/store/apps/details?id=sober.jmfcool.com",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "web": {
+                    "link": "https://sober.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/sober-by-jmfcoolcom/cclbdmhgopgijohdccipkiohjehnppfa?hl=en&authuser=0",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            },
+            {
+                "name": "Reviews",
+                "picture": {
+                    "large": "app-reviews-large.webp",
+                    "small": "app-reviews-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/reviews-by-jmfcool-com/id1557729597",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "https://play.google.com/store/apps/details?id=reviews.jmfcool.com",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "web": {
+                    "link": "https://reviews.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/reviews-by-jmfcoolcom/eknbalcpkkcpfchkhddacbdpfidbpnkj",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            },
+            {
+                "name": "Bills",
+                "picture": {
+                    "large": "app-bills-large.webp",
+                    "small": "app-bills-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/bills-by-jmfcool-com/id1602051840",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "javascript://",
+                    "text": "Coming Soon",
+                    "active": 0
+                },
+                "web": {
+                    "link": "https://bills.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/bills-by-jmfcoolcom/aefhbeaenajkcndoocpfdbjaenmkadie",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            },
+            {
+                "name": "Network",
+                "picture": {
+                    "large": "app-network-large.webp",
+                    "small": "app-network-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/network-by-jmfcool-com/id1593033198",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "javascript://",
+                    "text": "Coming Soon",
+                    "active": 0
+                },
+                "web": {
+                    "link": "https://network.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/network-by-jmfcoolcom/cipgghiddiaahlolfifillbjlglnfeon",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            },
+            {
+                "name": "Tip",
+                "picture": {
+                    "large": "app-tip-large.webp",
+                    "small": "app-tip-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/tip-by-jmfcool-com/id1592569609",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "javascript://",
+                    "text": "Coming Soon",
+                    "active": 0
+                },
+                "web": {
+                    "link": "https://tip.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/tip-by-jmfcoolcom/ckgnolmhpcinkkfdbknbgncimmgimffd",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            },
+            {
+                "name": "Recipes",
+                "picture": {
+                    "large": "app-recipes-large.webp",
+                    "small": "app-recipes-small.webp"
+                },
+                "apple": {
+                    "link": "https://apps.apple.com/us/app/recipes-by-jmfcool-com/id1598126608",
+                    "text": "Download Free",
+                    "active": 1
+                },
+                "google": {
+                    "link": "javascript://",
+                    "text": "Coming Soon",
+                    "active": 0
+                },
+                "web": {
+                    "link": "https://recipes.jmfcool.com",
+                    "text": "Free Access",
+                    "active": 1
+                },
+                "chrome": {
+                    "link": "https://chrome.google.com/webstore/detail/recipes-by-jmfcoolcom/pladojkciglkljoemnamlibelbkbcbbe",
+                    "text": "Download Free",
+                    "active": 1
+                }
+            }
+        ]
+    }
+]

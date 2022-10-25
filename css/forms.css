@@ -1,0 +1,115 @@
+/* Contact Form */
+
+.contact-form .modal-lg 
+{
+	max-width: 520px;
+}
+
+.contact-form .modal-header 
+{
+	width: 100%;
+	background: var(--baseColor);
+	border-bottom: none;
+}
+.contact-form .modal-header h3 
+{
+	color: var(--lightColor);
+	font-family: var(--heading);
+	font-weight: 600;
+	font-size: 24px;
+	margin: 0;
+	text-align: left;
+}
+.contact-form .modal-header .close 
+{
+	color: var(--lightColor);
+	font-size: 24px;
+	opacity: 1;
+}
+
+.contact-form .modal-body 
+{
+	width: 100%;
+	padding: 10px 10px 0 10px;
+}
+
+.contact-form input,
+.contact-form textarea 
+{
+	width: 100%;;
+	color: var(--darkColor);
+	font-family: var(--paragraph);
+	font-weight: 400;
+	font-size: 16px;
+	height: inherit;
+	margin-bottom: 10px;
+	padding: 8px 15px;
+	border: 1px solid #c1c1c1;
+	text-align: left;
+	float: left;
+}
+
+.contact-form button.submit 
+{
+	color: var(--lightColor);
+	background: var(--secondaryColor);
+	font-family: var(--heading);
+	font-weight: 500;
+	font-size: 18px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.contact-form button.submit:hover 
+{
+	background: var(--baseColor);
+	color: var(--lightColor);
+}
+
+.contact-form .submit[disabled=disabled]
+{
+	border-color: #a1a1a1 !important;
+	background-color: #e1e1e1 !important;
+	color: #a1a1a1 !important;
+}
+
+.contact-form .error
+{
+	border-color: #f00;
+	background: #ffe3e3;
+}
+
+.contact-form .error::placeholder { color: #f00 !important; }
+.contact-form .error::-webkit-input-placeholder { color: #f00 !important; }
+.contact-form .error:-ms-input-placeholder { color: #f00 !important; }
+
+.contact-form .response
+{
+	background-color: var(--baseColor);
+	color: var(--lightColor);
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+/* End of Contact Form */
+/* Newsletteer Form */
+
+.newsletter-form form
+{
+	overflow: auto;
+}
+
+.newsletter-form .email
+{
+	float: left;
+}
+
+.newsletter-form .error::placeholder { color: #f00 !important; }
+.newsletter-form .error::-webkit-input-placeholder { color: #f00 !important; }
+.newsletter-form .error:-ms-input-placeholder { color: #f00 !important; }
+
+/* End of Newsletter Form  */

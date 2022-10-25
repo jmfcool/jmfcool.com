@@ -1,0 +1,462 @@
+[
+    {
+        "name": "Picture",
+        "target": "picture",
+        "picture": "app-picture.webp",
+        "text": [
+            "Picture by Jmfcool.com is one of the most unique image size converter apps that converts images from any size to different standard image dimensions in just moments. The photo resizing app is extremely easy to use with a beautiful interface. To convert the image dimensions, just get the image files you need to convert from different sources. You can choose to select the files from your phone gallery, dropbox cloud or from your device camera. While converting the photo dimensions, choose the image size and share the image from any image sharing application or save the image to your device.",
+            "Picture by Jmfcool.com is one of the most convenient and quickest photo resizing apps that helps your resize any photo within seconds. You can not only resize the photos that you want, but also share them with your friends using different sharing applications available on your iPhone device. So, never be worried about resizing your photos now. Using the Picture app, you can resize any photo without losing the image quality."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/picture-by-jmfcool-com/id1556996276",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        }
+    },
+    {
+        "name": "Reviews",
+        "target": "reviews",
+        "picture": "app-reviews.webp",
+        "text": [
+            "Reviews by Jmfcool.com is one of the most unique business listing apps that not only provides business reviews, but also serves as a business directory to help you find the address and contact details of businesses near you. It is an extremely useful app not only for travellers, but also for locals.",
+            "If you are looking for an app to get reviews of different local businesses around you from top websites such as TomTom, Yelp, Google, etc. start using this unique reviews aggregator app.",
+            "Reviews by Jmfcool.com is one of the most unique reviews aggregator apps that aggregates reviews of local businesses - restaurants, hotels, schools, cafes, etc. from top websites such as yelp, facebook, google, etc. The app is extremely easy to use with a beautiful interface. Reviews are gathered with a unique proprietary algorithm to help minimize trolls. You will be able to view the review of a business from your favorite social networks from just one app."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/reviews-by-jmfcool-com/id1557729597",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "https://play.google.com/store/apps/details?id=reviews.jmfcool.com",
+            "text": "Download Free",
+            "active": 1
+        },
+        "web": {
+            "link": "https://reviews.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/reviews-by-jmfcoolcom/eknbalcpkkcpfchkhddacbdpfidbpnkj",
+            "text": "Download Free",
+            "active": 1
+        }
+    },
+    {
+        "name": "Ambient",
+        "target": "ambient",
+        "picture": "app-ambient.webp",
+        "text": [
+            "Introducing a unique AI based speech recognition app that can understand what you are saying. Ambient by Jmfcool.com is a unique app that detects what you are saying and transcribes it in realtime using the latest Artificial Intelligence (AI) based approaches. The app is the best among all speech detection apps that is very efficient at handling human speech.",
+            "Ambient by Jmfcool.com is one of the unique apps that include features such as speech recognition, transcription, and processing based on the latest AI technologies. The Ambient app recognizes your speech and accurately transcribes based on the best speech recognition patterns.",
+            "Ambient has a beautiful design and smooth user controls. Are you excited to try it out? You will fall in love with the simplicity of use and the unique speech recognition feature of Ambient. Once the speech is recognized, the app uses the latest AI technologies to transcribe the speech in realtime." 
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/ambient-by-jmfcool-com/id1558090507",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        }
+    },
+    {
+        "name": "Scan",
+        "target": "scan",
+        "picture": "app-scan.webp",
+        "text": [
+            "Scan by Jmfcool.com is a great App that has the ability to scan all types of services. The scanning process is quite useful for those who work online and need to manipulate text in different formats. The tools available in this amazing application can help you scan pages, credit cards, business cards, among other things.",
+            "Scan by Jmfcool.com is undoubtedly one of the most useful apps for researchers, students, and lovers of reading in all kinds of fields. The Application can scan documents and turn them into PDF or convert the reading into text which is something absolutely innovative and uncommon. There are no limits to the functionality of Scan by Jmfcool.com in terms of scanning and converting to text.",
+            "All you have to do is download it from the App Store, and start working without limitations or inconveniences."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/scan-by-jmfcool-com/id1560394635",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        }
+    },
+    {
+        "name": "Parked",
+        "target": "parked",
+        "picture": "app-parked.webp",
+        "text": [
+            "Parked by Jmfcool.com has been created to help its users find their cars faster once they have left them parked to complete daily errands. The App is perfect for people who own a vehicle and park it in places which are far away, or in very congested parking areas.",
+            "We all know how frustrating and annoying it can be to go shopping, or out on dates, and leave your car parked in crowded places. That is why Parked by Jmfcool.com can make your day more practical and less complicated. How does the app work?",
+            "Parked by Jmfcool.com is very easy and intuitive app. When your car is parked, press the Parked button. Once you are ready to return to your car, you only need to open the app and press the Locate button."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/parked-by-jmfcool-com/id1561199106",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        }
+    },
+    {
+        "name": "Currency",
+        "target": "currency",
+        "picture": "app-currency.webp",
+        "text": [
+            "Currency by Jmfcool.com allows you to convert currency to currency, currency to cryptocurrency, and cryptocurrency too currency. This amazing application allows you too easily and quickly manipulate and convert money by simply downloading it.",
+            "Currency by Jmfcool.com allows you to see many changes in real-time without having to go through bureaucratic systems. This App is constantly being updated and improved in order to provide its users with exceptional and quality services.",
+            "Not only does the app convert currencies to currencies, crypto to currencies, and currencies too crypto but it does much more. It runs real-time conversion rates for each currency, so the users have the most accurate data at the palm of their hands. Crypto currencies are so new that it is hard for a lot of people to see how it compares to traditional currencies."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/currency-by-jmfcool-com/id1561234037",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "https://currency.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Not Avaliable",
+            "active": 0
+        }
+    },
+    {
+        "name": "Tip",
+        "target": "tip",
+        "picture": "app-tip.webp",
+        "text": [
+            "By using Tip by Jmfcool.com, the user is able to calculate how much tip they should provide based on the bill they received. Basically, it adds the original bill amount and the tip percentage determined by Tip by Jmfcool.com.",
+            "Tipping businesses is an act of kindness and is greatly appreciated by those who receive them. Tip by jmfcool.com offers users the capability of calculating the bill and a predetermined or custom percentage for the tip.",
+            "In addition, the app includes a function where you can enter the original bill and a percentage, where you can go as high as 20%. The app is being continuously updated and revised to ensure its maximum efficiency."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/tip-by-jmfcool-com/id1592569609",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "https://tip.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/tip-by-jmfcoolcom/ckgnolmhpcinkkfdbknbgncimmgimffd",
+            "text": "Download Free",
+            "active": 1
+        }
+    },
+    {
+        "name": "Alphabet",
+        "target": "alphabet",
+        "picture": "app-alphabet.webp",
+        "text": [
+            "Alphabet is another excellent app created by Jmfcool.com. It was specially designed for children to help them learn the alphabet. Throughout a child's development and growth, the alphabet is an integral part of the learning process.",
+            "Children's ability to recognize alphabets in words is strongly related to their understanding of how written words are made up of letters. In addition, they need to be able to treat words as sequences of letters.",
+            "Alphabet knowledge and identification are considered the foundation of literacy. As a result, learning and understanding the alphabet is essential for children.",
+            "The Alphabet by jmfcool.com application is a digital flashcard designed to display letters with a word above them. The toggle button displays an alphabetic representation when pressed. The app currently has 26 flashcards installed to aid a child's development.",
+            "One of the most appealing features of Alphabet by Jmfcool.com is the constant update provided by the app that helps to further a child's mental development."     
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/alphabet-by-jmfcool-com/id1593754104",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        }
+    },
+    {
+        "name": "Network",
+        "target": "network",
+        "picture": "app-network.webp",
+        "text": [
+            "Network by Jmfcool.com is a leading provider of Internet Protocol (IP), which is a system of rules that governs the structure of data delivered over the internet or a local network.",
+            "Network by Jmfcool.com is an application that allows its users to obtain an internal or external IP address. Network by Jmfcool.com also provides its users with the ability to acquire the IP address of any domain they input.",
+            "The significance of an IP address cannot be overstated. IP addresses can be used to identify your computer, a favorite website, a network server, or a device. IP addresses are very useful for delivering and receiving data. They guide emails to your inbox and route internet traffic where it needs to go. This is where Network by Jmfcool.com shines by providing you with the IP address and domain needed.",
+            "Obtaining a unique IP address from Network by Jmfcool.com has several advantages, including: protection from shared web hosting, which uses a single IP address for multiple users, which can lead to obvious risks; protection from shady internet activities by obtaining a dedicated IP address and domain from Network by Jmfcool.com.",
+            "Want to obtain various IP addresses and domains? Download Network by Jmfcool.com today to get started."       
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/network-by-jmfcool-com/id1593033198",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "https://network.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/network-by-jmfcoolcom/cipgghiddiaahlolfifillbjlglnfeon",
+            "text": "Download Free",
+            "active": 1
+        }
+    },
+    {
+        "name": "Math",
+        "target": "math",
+        "picture": "app-math.webp",
+        "text": [
+            "Math by Jmfcool.com is a dedicated app to aid children in their mental development. Math by Jmfcool.com is an application designed to challenge the child's brain in the area of math and interactive equations. It was created with kids in mind, and the interface is designed to be fun and easy to use.",
+            "Math by Jmfcool.com makes it easier for kids to learn and adapt to an assortment of interactive equations by providing visual examples of concepts explained in books and other learning platforms.",
+            "Math by Jmfcool.com was developed to make the platform user-friendly for kids. There are several math equations to choose from, including addition, subtraction, multiplication, and division. The app is constantly updated to provide more math equations that will be helpful for kids.",
+            "Math by Jmfcool.com is designed to solve each equation within seconds while validating the answer with color-coordinated circles. Green appears when the correct answer is input, and red when the wrong answer is input."  
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/math-by-jmfcool-com/id1594177719",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        }
+    },
+    {
+        "name": "Spell",
+        "target": "spell",
+        "picture": "app-spell.webp",
+        "text": [
+            "Spell by Jmfcool.com is an application that teaches people how to spell correctly and recognize words. An image is displayed to make use of the app, and the user is tasked with adequately identifying the correct spelling from the image shown.",
+            "Spell by Jmfcool.com displays a red circle when the user enters an incorrect word and a green circle when the word is entered correctly.",
+            "Learning about spelling is easy with Spell by Jmfcool.com. This application focuses on proper word usage. Because of its simple and intuitive User Interface, it's a platform that anyone can use.",
+            "Like other apps provided by Jmfcool.com, Spell by Jmfcool.com is an ever-evolving application that is constantly updated and revised to maximize efficiency.",
+            "Would you like to check out the app? Try out Spell by Jmfcool.com from the App Store today - you'll love its ease of use and distinctive features!"
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/spell-by-jmfcool-com/id1595713149",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        }
+    },
+    {
+        "name": "Count",
+        "target": "count",
+        "picture": "app-count.webp",
+        "text": [
+            "Count by Jmfcool.com is an engaging, easy-to-use application designed to teach children how to count. A child's understanding of counting is critical as it is the foundation for all other number concepts. Many different methods have aided the development of counting.",
+            "Through a variety of meaningful situations, children have learned the meaning and process of counting. Jmfcool.com presents Count by Jmfcool.com as a practical application, one that aims to provide children with a learning platform to further their learning of counting.",
+            "Count by Jmfcool.com displays the number at the top and it toggles the number of items by pressing the toggle button. To remain effective, Count by Jmfcool.com is constantly updated and revised." 
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/count-by-jmfcool-com/id1595372027",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "chrome": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        }
+    },
+    {
+        "name": "Sober",
+        "target": "sober",
+        "picture": "app-sober.webp",
+        "text": [
+            "Sober by Jmfcool.com is an app created to aid you in abstaining from alcohol and other intoxicating substances.",
+            "Sober by Jmfcool.com is a simple application that tracks rehabilitation by utilizing a sobriety date and token format to show every 30 days invested. Sober by Jmfcool.com is a helpful tool since it promotes conscious reminders of the need to abstain from intoxicant substances.",
+            "The tracker refreshes in real-time to keep you up to date on your progress. It also visually depicts the number of days sober and displays a chip at the bottom of the screen after every 30 days of sobriety.",
+            "Sober by Jmfcool.com keeps the user's information locally and is entirely anonymous. To keep the user's information anonymous, Sober by Jmfcool.com stores the user's sobriety data, and all locally saved data is wiped away whenever the application is deleted.",
+            "Ready to take action? Download “Sober by Jmfcool.com” and begin your journey towards addiction recovery."   
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/sober-by-jmfcool-com/id1596628114",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "https://play.google.com/store/apps/details?id=sober.jmfcool.com",
+            "text": "Download Free",
+            "active": 1
+        },
+        "web": {
+            "link": "https://sober.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/sober-by-jmfcoolcom/cclbdmhgopgijohdccipkiohjehnppfa?hl=en&authuser=0",
+            "text": "Download Free",
+            "active": 1
+        }
+    },
+    {
+        "name": "Recipes",
+        "target": "recipes",
+        "picture": "app-recipes.webp",
+        "text": [
+            "Recipes by Jmfcool.com presents a variety of delicious recipes in an application that features recipes from different online sources. A user can choose the desired recipe from the list provided which aggregates recipes from various APIs.",
+            "Recipes by Jmfcool.com app organizes the results for recipes searched, and it also provides a  page that pulls up from the bottom of the page with the selected recipe.",
+            "Recipes by Jmfcool.com provides a beneficial resource for people curious about a new cooking style but have no idea where to find relevant recipes.",
+            "Are you looking for the latest recipes? Get started with Recipes by Jmfcool.com now."
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/recipes-by-jmfcool-com/id1598126608",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "https://recipes.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/recipes-by-jmfcoolcom/pladojkciglkljoemnamlibelbkbcbbe",
+            "text": "Download Free",
+            "active": 1
+        }
+    },
+    {
+        "name": "Bills",
+        "target": "bills",
+        "picture": "app-bills.webp",
+        "text": [
+            "A budgeting software may be precisely what you need if you're having trouble keeping tabs on your spending and getting a handle on your finances. Each of the numerous budgeting applications are overwhelming. In contrast to the others, Bills by Jmfcool.com has unique characteristics that make it stand out from the crowd.",
+            "You may rest easy knowing that Bills by Jmfcool.com was created with the broadest possible audience in mind while still providing a variety of useful features for individuals who want to keep tabs on their spending and stick to a strict budget.",
+            "Bills by Jmfcool.com is an easy-to-use application focusing on customization and financial management. An industry-revolutionizing budgeting app has arrived with Jmfcool.com's latest app addition. Bill by Jmfcool.com, built by the same company that created and developed Math by Jmfcool.com, Alphabet by Jmfcool.com, etc., provides a comprehensive feature to help you comprehend, monitor, and manage your expenditures.",
+            "Without going through many app adjustments, it automatically computes all expenditures in a single place. For example, you may monitor your spending by category or your entire cash flow to obtain a complete view of where your money goes each month using Bills by Jmfccol.com. Download the app now and start saving money right away!"
+        ],
+        "apple": {
+            "link": "https://apps.apple.com/us/app/bills-by-jmfcool-com/id1602051840",
+            "text": "Download Free",
+            "active": 1
+        },
+        "google": {
+            "link": "javascript://",
+            "text": "Coming Soon",
+            "active": 0
+        },
+        "web": {
+            "link": "https://bills.jmfcool.com",
+            "text": "Free Access",
+            "active": 1
+        },
+        "chrome": {
+            "link": "https://chrome.google.com/webstore/detail/bills-by-jmfcoolcom/aefhbeaenajkcndoocpfdbjaenmkadie",
+            "text": "Download Free",
+            "active": 1
+        }
+    }
+]

@@ -1,0 +1,84 @@
+.paginationjs-prev::after
+{
+	content: '';
+	clear: both;
+}
+  
+.paginationjs-page
+{
+	display: inline-flex;
+	padding: 5px 10px;
+	border: 1px solid #e0e0e0;
+	background-color: #eee;
+	color: #333;
+	cursor: pointer;
+	transition: background-color 0.1s ease;
+	transition: color 0.1s;
+	margin: 0;
+}	
+
+.paginationjs-page a
+{
+	background: transparent !important;
+}
+
+.paginationjs-page:hover
+{
+	background-color: #ddd;
+	color: #3366cc;
+}
+
+.paginationjs-page.active
+{
+	background-color: #bbb;
+	border-color: #bbb;
+	color: #3366cc;
+}
+
+.paginationjs-page:first-of-type
+{
+	border-radius: 18px 0 0 18px;
+}
+
+.paginationjs-page:last-of-type 
+{
+	border-radius: 0 18px 18px 0;
+}
+
+.paginationjs 
+{
+	display: inline-flex !important;
+	width: 100%;
+	margin: auto;
+	padding: 35px 0;
+	text-align: center;
+}
+.paginationjs ul
+{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.paginationjs .paginationjs-prev,
+.paginationjs .paginationjs-next
+{
+	background: #eee;
+	border: 1px solid #e0e0e0;
+	display: inline-flex;
+	padding: 5px 10px;
+}
+.paginationjs .paginationjs-prev
+{
+	border-radius: 18px 0 0 18px;
+}
+.paginationjs .paginationjs-next
+{
+	border-radius: 0 18px 18px 0;
+}
+.paginationjs .disabled a,
+.paginationjs .disabled a:hover
+{
+	color: #a1a1a1;
+	cursor: not-allowed;
+}

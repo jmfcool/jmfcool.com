@@ -1,0 +1,76 @@
+[
+    {
+        "links": [
+            {
+                "name": "About",
+                "hash": "about"
+            },
+            {
+                "name": "Services",
+                "hash": "services"
+            },
+            {
+                "name": "Mobile",
+                "hash": "mobile"
+            },
+            {
+                "name": "Marketing",
+                "hash": "marketing",
+                "items": [
+                    {
+                        "name": "Websites",
+                        "target": "websites"
+                    },
+                    {
+                        "name": "Emails",
+                        "target": "emails"
+                    },
+                    {
+                        "name": "Landing Pages",
+                        "target": "landingpages"
+                    }
+                ]
+            },
+            {
+                "name": "News",
+                "hash": "news",
+                "items": [
+                    {
+                        "name": "August 31, 2020"
+                    }
+                ]
+            },
+            {
+                "name": "Team",
+                "hash": "team",
+                "items": [
+                    {
+                        "name": "Jeremiah Faria",
+                        "target": "jeremiah-resume"
+                    },
+                    {
+                        "name": "Elizabeth Heydeck",
+                        "target": "elizabeth-resume"
+                    },
+                    {
+                        "name": "Matthew Golden",
+                        "target": "matt-resume"
+                    }
+                ]
+            },
+            {
+                "name": "Legal",
+                "items": [
+                    {
+                        "name": "Pivacy Policy",
+                        "target": "privacy"
+                    },
+                    {
+                        "name": "Terms of Use",
+                        "target": "terms" 
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+.support 
+{ 
+    font-family: "Arial", Helvetica, sans-serif; 
+    background: var(--lightColor); 
+    margin: 0px; 
+    padding: 25px; 
+    text-align: left; 
+}
+.support h1 
+{ 
+    font-weight: bold; 
+    font-size: 25px;
+    color: var(--baseColor); 
+    text-align: left; 
+    padding: 5px 0px; 
+}
+.support h2 
+{ 
+    font-weight: normal; 
+    font-size: 22px;
+    color: var(--secondaryColor);
+    margin: 0; 
+    padding: 0; 
+}
+.support h3 
+{ 
+    font-weight: normal; 
+    font-size: 20px;
+    color: var(--baseColor); 
+}
+.support h4 
+{ 
+    font-weight: bold; 
+    font-size: 18px;
+    color: var(--darkColor); 
+}
+.support p 
+{ 
+    font-weight: normal; 
+    font-size: 16px;
+    padding: 8px 0px; 
+}
+.support ul 
+{ 
+    list-style-type: none; 
+    padding: 5px; 
+}
+.support li 
+{ 
+    font-weight: normal;
+    text-align: left;
+    line-height: 30px;
+}
+.support a 
+{ 
+    color: var(--secondaryColor); 
+}

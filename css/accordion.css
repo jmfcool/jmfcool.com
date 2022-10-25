@@ -1,0 +1,143 @@
+/* Mobile */
+
+@media screen and (max-width: 800px) 
+{
+	.item-mobile .item-wrapper
+	{
+		padding: 0 15px 15px 15px;
+	}
+}
+
+/* End of Mobile */
+
+.items
+{
+	padding: 0;
+	background-color: #ffffff;
+}
+.items .items-wrapper
+{
+	margin: 0px auto;
+}
+.items-content
+{
+	padding: 0;
+}
+.items-content .item .click-item 
+{
+	padding: 5px 15px;
+	border: none;
+}
+.items-content .item .click-item a
+{
+	color: var(--darkColor);
+	font-family: var(--baseHeading);
+	font-weight: 600;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	padding: 12.5px 0px;
+	position: relative;
+	padding-right: 20px;
+	text-align: left;
+}
+.items-content .item .click-item a:after
+{
+	content:"\f068";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	color: var(--secondaryColor);
+	position:absolute;
+	right: 0px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);	
+	-ms-transform: translateY(-50%);	
+	transform: translateY(-50%);	
+}
+.items-content .item .click-item a.collapsed:after
+{
+	content:"\f067";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	color: var(--secondaryColor);
+	position:absolute;
+	right: 0px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);	
+	-ms-transform: translateY(-50%);	
+	transform: translateY(-50%);
+}
+.items-content .item .click-item a span
+{
+	font-style: italic;
+}
+.items-content .contents
+{
+	margin-top:5px;
+}
+.items-content .contents p
+{
+	color:#323232;
+	font-family: var(--baseParagraph);
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 15px;
+	margin: 0;
+}
+.items-content .contents p:last-child
+{
+	padding-bottom:15px;
+}
+
+#services p:last-child,
+#news p:last-child,
+#team p:last-child
+{
+	padding-bottom: 35px;
+}
+
+.item-services .item-wrapper
+{
+	padding-bottom: 15px !important;
+}
+.item-services .item-wrapper p
+{
+	padding: 0 0 15px !important;
+}
+.item-services .item-wrapper a
+{
+	margin: 25px auto !important;
+}
+
+/* Alternating Color */
+
+.item:nth-child(odd)
+{ 
+	background: var(--grayColor); 
+}
+.item:nth-child(even)
+{ 
+	background: var(--lightColor); 
+}
+
+/* End of Alternating Color */
+/* Item Wrapper */
+
+.item-wrapper 
+{
+	padding: 0 40px;
+}
+
+.item-wrapper .btn,
+.item-wrapper .btn-primary:active
+{
+	margin-bottom: 45px;
+	background-color: var(--secondaryColor) !important;
+	border: none !important;
+}
+.item-wrapper .btn-primary:hover
+{
+	background-color: var(--baseColor) !important;
+}
+
+/* End of Item Wrapper */

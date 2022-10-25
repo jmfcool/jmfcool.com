@@ -1,0 +1,76 @@
+/* Mobile */
+
+@media screen and (max-width: 800px) 
+{
+	#interstitial .holder h4 
+	{
+		font-size: 5vw;
+		margin-bottom: 15px !important;
+	}
+}
+
+/* End of Mobile */
+/* Desktop */
+
+@media screen and (min-width: 800px) 
+{
+	#interstitial .holder h4 
+	{
+		font-size: 2vw;
+	}
+}
+
+/* End of Desktop */
+
+#interstitial .wrapper 
+{
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2000;
+	background: #ffffff;
+	background-size: 40px;
+}
+#interstitial .wrapper .close 
+{
+	position: absolute;
+	z-index: 3500px;
+	top: 20px;
+	right: 20px;
+}
+#interstitial .wrapper .close img 
+{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+#interstitial .holder 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 200;
+	height: auto;
+	width: 100%;
+	transform: translate(-50%,-50%);
+}
+#interstitial .holder h4 
+{
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto 10px auto;
+}
+#interstitial .holder h4 span
+{
+	font-style: italic;
+}
+#interstitial .holder img
+{
+	height: auto;
+	width: auto;
+}

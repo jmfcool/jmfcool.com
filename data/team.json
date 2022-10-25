@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Jeremiah Faria",
+        "target": "jeremiah",
+        "resume": "jeremiah-resume",
+        "text": [
+            "Blending over a decade of success in both the creative and technical sides of digital marketing, project management, web designing, bug tracking, coding, customer service and technical support, I have led and directed web-based technology work across broad disciplines, while owning multiple technology companies and working for many more. Having an astute understanding of the capacities and limitation of various technologies, software, and hardware, I expertly guide clients through the complex worlds of marketing, brand management, optimization, customer-focused experiences, technology hardware and software security and protection, coding and more with unparalleled success.",
+            "In my quest to always provide the most current solutions, remain at the forefront of technological innovation, ensure maximum creativity, and provide world-class service, I maintain professional organization memberships; hold certifications, and completed many advanced courses."
+        ]
+    },
+    {
+        "name": "Elizabeth Heydeck",
+        "target": "elizabeth",
+        "resume": "elizabeth-resume",
+        "text": [
+            "With over 7 years of experience in Quality Assurance and over 15 years in Customer Service I have focused on providing excellent support to the business by supporting the needs of the business as well as the customers. Attention to detail, patience, communication, analytical thinking, and problem solving have helped me to be a leader in my field. Filtering through code to find issues, using performance monitoring applications, test matrix's, or simply reporting copy issues I have made an impact with whatever I have been involved with. Being a team player is how I have been successful and continue to be effective to the bottom line."
+        ]
+    },
+    {
+        "name": "Matthew Golden",
+        "target": "matt",
+        "resume": "matt-resume",
+        "text": [
+            "Being able to create programs to organize and present data as required is no less than a superpower in today’s times, and I do exactly that! Throughout my career, I have accumulated experience in diverse aspects of data development. My experience includes managing the backend functionality at hospitals to writing SQL and TestPartner scripts within EHR education system databases and developing a microservices architecture that queries MLS boards, and designing and implementing ETL processes using Microsoft SQL Server Integration Services (SSIS). I am comfortable with handling multiple large deadline-based projects at a time. I am competent with SQL, Java, HL7, Powershell, AutoIt, Crystal Server, Active Directory, XCode, Eclipse, and Git. A communication and team collaboration expert, I bring my expertise to jmfcool to assure your digital needs are met successfully."
+        ]
+    }
+]

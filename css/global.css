@@ -1,0 +1,99 @@
+/* Encoding */
+
+@charset "ISO-8859-1";
+
+/* End of Encoding */
+/* Root */
+
+:root {
+	--baseColor: #62B83E;
+	--secondaryColor: #0C2E82;
+	--lightColor: #FFFFFF;
+	--darkColor: #232323;
+	--grayColor: #F4F4F4;
+
+	--commentColor:teal;
+	--stringColor: #D1AB36;
+	--numberColor: #D1AB36;
+	--keywordColor:orange;
+	
+	--baseHeading: 'Raleway', sans-serif;
+	--baseParagraph: 'Montserrat', sans-serif;
+}
+
+/* End of Root */
+/* Reset */
+
+* { text-align: center; margin: 0 auto; padding: 0; font: normal 100% "Arial", Helvetica, sans-serif; }
+
+/* End of Reset */
+/* Common */
+
+html, body { text-align: center; }
+a { text-decoration: none; color: var(--secondaryColor); }
+a:hover { text-decoration: none; color: var(--baseColor); }
+strong { font-weight: bold; }
+em { font-style: italic; }
+img { display: block; border: 0; }
+ul, li { list-style: none; margin: 0; padding: 0; }
+p { font-size: 18px; text-align: left; padding: 10px 0; line-height: 30px; }
+h1 {}
+h2 { font-size: 35px; font-weight: bold; text-align: left; margin: 10px 0 20px 0; color: #0a2d81; }
+h3 { font-size: 20px; font-weight: bold; text-align: left; margin-top: 10px; clear: both; }
+h4 { font-size: 12px; font-weight: normal; text-align: left; margin: 5px 0 20px 0; }
+h5 { text-align: left; }
+h5 a { color: var(--darkColor); font-weight: bold; }
+h5 a:hover { color: var(--baseColor); }
+
+/* End of Common */
+/* Back to Top */
+
+.anchor 
+{
+	display: none;
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	cursor: pointer;
+	padding: 10px 20px;
+	color: var(--lightColor);
+	background: var(--secondaryColor);
+	border: none;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.anchor:hover
+{
+	background: var(--baseColor);
+	color: var(--lightColor);
+	text-decoration: none;
+}
+
+/* End of Back to Top */
+/* Googlebot */
+
+#googlebot
+{
+	background: var(--baseColor);
+	color: var(--lightColor);
+}
+#googlebot p
+{
+	font-size: 17px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/* End of Googlebot */
+/* Facebook Follower Widget */
+
+.fb_iframe_widget
+{
+	left: -5px;
+}
+
+/* End of Facebook Follower Widget */

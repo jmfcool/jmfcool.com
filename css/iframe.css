@@ -1,0 +1,40 @@
+.modal-backdrop.fade.show 
+{
+	z-index: 500;
+}
+.support_iframe .modal-content iframe 
+{
+	vertical-align: middle; 
+}
+.iframe_modal .modal-support 
+{ 
+	max-width: 1140px; 
+}
+.iframe_modal .modal-header 
+{ 
+	border-bottom: none; 
+	padding: 0px; 
+}
+.iframe_modal .modal-header .close 
+{
+	position: absolute;
+	right: 10px;
+	top: -20px;
+	z-index: 99999;
+	font-size: 24px;
+	opacity: 1;
+}
+.iframe_modal .modal-body 
+{ 
+	width: 100%; 
+	padding: 0; 
+}
+.iframe_modal .iframe_page::after
+{
+	content: none;
+}
+.iframe_modal .iframe_page iframe 
+{ 
+	width: 100%; 
+	height: 500px; 
+}
