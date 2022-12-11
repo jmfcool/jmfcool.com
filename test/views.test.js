@@ -16,13 +16,6 @@ beforeEach(async () => {
     global.document = dom.window.document;
 });
 
-describe("ip", () => {
-    it("should be a string", async () => {
-        const html = await views.ip4(fetch);
-        expect(html).to.be.a("string");
-    });
-});
-
 describe("menu", () => {
 
     it("should be an array", async () => {
@@ -228,7 +221,7 @@ describe("marketing", () => {
         it("has 6 boxes", async () => {
             const html = await views.marketing(fetch);
             var boxes = (html[3].match(/single_port/g) || []).length;
-            expect(boxes).to.be.equal(6);
+            expect(boxes).to.be.equal(7);
         });
 
     });

@@ -121,18 +121,21 @@ h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color
 .items-content .used_technology ul li:last-child{margin-right:0}.items-content .used_technology ul li::before{content:"\f00c";color:var(--secondaryColor);font-family:"Font Awesome 5 Free";font-weight:700;font-size:14px;position:absolute;left:0;top:0}
 .items-content .tags ul{text-align:left;margin:0 0 5px 0;font-size:0}.items-content .tags ul li{list-style:none;display:inline-block;color:var(--darkColor);font-family:var(--baseParagraph);font-weight:400;font-size:13px;padding:4px 8px;border:1px solid #e5e6e7;border-radius:2px;margin-right:5px;margin-bottom:5px;font-style:italic}
 .items-content .tags ul li a{color:var(--secondaryColor)}.items-content .application_port .tags{margin-top:20px}
-@media screen and (max-width:800px){.date{top:11px;right:15px}.navbar .navbar-toggler{border:none !important;color:var(--baseColor) !important}
+@media screen and (max-width:800px){.login{top:0;right:0}.login a{box-shadow:none !important}
+.navbar .navbar-toggler{border:none !important;color:var(--baseColor) !important}
 .navbar{background-color:var(--lightColor);padding:0 !important;box-shadow:0 3px 12px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
 .navbar li{overflow:hidden}.navbar a{width:100%;box-shadow:inset 0 0 10px 0 rgba(225,225,225,1);padding:7px 0}
 .navbar a:hover,.navbar a.active{box-shadow:0 0 15px 0 rgba(225,225,225,1)}.navbar .navbar-nav .nav-item:last-child{margin-right:0}
 .navbar .navbar-nav .nav-item .nav-link{color:var(--darkColor);font-family:var(--heading);font-weight:600;font-size:16px;text-decoration:none;text-align:left;padding:10px 20px}
 .navbar .container{padding:0 !important}.navbar .dropdown-menu{position:static !important;padding:0}
 .navbar .dropdown-menu a{display:block;padding:5px 0}.navbar .dropdown-item{padding:10px 0 10px 35px}
-.navbar .btn-group{width:100%}.navbar button{border:0}}@media screen and (min-width:800px){.date{top:15px;right:25px}
+.navbar .btn-group{width:100%}.navbar button{border:0}}@media screen and (min-width:800px){.login{top:7px;right:10px}
 .navbar{position:relative}.navbar .nav-link{color:#000 !important}.navbar .nav-link:hover{color:var(--baseColor) !important}
 .navbar .nav-link.active{color:var(--secondaryColor) !important}.navbar .dropdown-menu{padding:0}
 .navbar .dropdown-menu a{display:block;padding:5px 0}.navbar .dropdown-item{text-align:center;margin:auto;padding:10px 0}
-}.date{position:absolute}.navbar{position:relative}.navbar .btn{padding:0}@media screen and (max-width:800px){.content{box-shadow:0 5px 5px 0 rgba(225,225,225,1)}
+}.navbar{position:relative}.navbar .btn{padding:0}.login{position:absolute}.login a{color:var(--lightColor);background:var(--secondaryColor);font-family:'Inter',sans-serif;font-weight:500;font-size:14px;padding:10.5px 20px;text-decoration:none;display:block;border:0;min-width:130px;border-radius:3px;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.login a i{margin-right:5px}.login a:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05)}
+@media screen and (max-width:800px){.content{box-shadow:0 5px 5px 0 rgba(225,225,225,1)}
 .page{padding:0}.page-active{box-shadow:0 -3px 12px rgba(0,0,0,0.25)}.page-active h2{padding-top:10px}
 #page-home img{width:100%}#page-home .icon{width:40px;height:40px}.head-wrapper{padding:0 15px 15px 15px}
 .head-wrapper p{margin:0;padding:0}#page-mobile .app-icon{width:100px;height:100px;float:left;padding:0 10px 10px 0}

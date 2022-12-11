@@ -2,7 +2,8 @@
 
 @media screen and (max-width: 800px) 
 {
-	.date { top: 11px; right: 15px; }
+	.login { top: 0; right: 0; }
+	.login a { box-shadow: none !important; }
 
 	.navbar .navbar-toggler 
 	{
@@ -62,7 +63,7 @@
 
 @media screen and (min-width: 800px) 
 {
-	.date { top: 15px; right: 25px; }
+	.login { top: 7px; right: 10px; }
 
 	.navbar { position: relative; }
 
@@ -84,10 +85,37 @@
 
 /* End of Desktop */
 
-.date { position: absolute; }
-
 .navbar { position: relative; }
 .navbar .btn
 {
 	padding: 0;
+}
+
+.login { position: absolute; }
+.login a
+{
+	color: var(--lightColor);
+	background: var(--secondaryColor);
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10.5px 20px;
+	text-decoration: none;
+	display: block;
+	border: none;
+	min-width: 130px;
+	border-radius: 3px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.login a i
+{
+	margin-right: 5px;
+}
+.login a:hover
+{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }

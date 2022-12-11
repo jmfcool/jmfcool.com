@@ -42,6 +42,7 @@ export const menu = (_fetch) => view.get("data/menu.json", (data) => {
                             </button>
                         </div>
                         <li class="data"></li>
+                        <li class="login"><a href="https://tasks.jmfcool.com"><i class="fas fa-sign-in-alt"></i> Login</a></li>
                     </ul>
                 </div>
             </nav>
