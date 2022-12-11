@@ -105,14 +105,6 @@ describe("selectors", () => {
 
     describe("classes", () => {
         
-        it("has 1 date", () => {
-            expect(document.getElementsByClassName("date").length).to.equal(1);
-        });
-        
-        it("has 1 ip", () => {
-            expect(document.getElementsByClassName("ip").length).to.equal(1);
-        });
-        
         it("has 5 items", () => {
             expect(document.getElementsByClassName("items").length).to.equal(5);
         });
