@@ -63,6 +63,8 @@ subject.init = () => {
 
 window.onload = () => {
 
+    window
+
     hash.init();
     document.getElementsByClassName('date')[0].innerHTML = date.current();
     subject.init();
