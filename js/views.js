@@ -4,7 +4,6 @@ import { view } from "./view.js";
 // IP
 
 export const ip4 = (_fetch) => view.get("https://api.ipify.org?format=json", (data) => {
-    
     document.getElementsByClassName("ip")[0].innerHTML = data.ip;
     return data.ip;
 
@@ -16,8 +15,7 @@ export const menu = (_fetch) => view.get("data/menu.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +50,7 @@ export const menu = (_fetch) => view.get("data/menu.json", (data) => {
     document.getElementById("navbar").innerHTML = template.join("");
     return template;
 
-},_fetch);
+}, _fetch);
 
 // Carousel
 
@@ -60,8 +58,7 @@ export const carousel = (_fetch) => view.get("data/carousel.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <section class="app_slider_wrap">
                 <div class="container">
@@ -122,7 +119,7 @@ export const carousel = (_fetch) => view.get("data/carousel.json", (data) => {
     document.getElementById("carousel").innerHTML = template.join("");
     return template;
 
-},_fetch);
+}, _fetch);
 
 // About
 
@@ -130,8 +127,7 @@ export const about = (_fetch) => view.get("data/about.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             ${Array(data[i].content.length).fill().map((item, key) => `<p class="item-about">${data[i].content[key]}</p>`).join("")}
         `);
@@ -140,7 +136,7 @@ export const about = (_fetch) => view.get("data/about.json", (data) => {
     document.getElementById("about").innerHTML = template.join("");
     return template;
 
-},_fetch);
+}, _fetch);
 
 // Services
 
@@ -148,8 +144,7 @@ export const services = (_fetch) => view.get("data/services.json", (data) => {
 
     var html = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         let template = `
             <article class="item item-services">
                 <header class="click-item">
@@ -165,13 +160,11 @@ export const services = (_fetch) => view.get("data/services.json", (data) => {
         `;
         html.push(template);
     }
-    if (!_fetch) 
-    {
+    if (!_fetch) {
         $("#services-pagination").pagination({
             pageSize: 5,
             dataSource: html,
-            callback: function (data, pagination) 
-            {
+            callback: function (data, pagination) {
                 $("#services").html(data);
             },
         });
@@ -179,15 +172,13 @@ export const services = (_fetch) => view.get("data/services.json", (data) => {
 
     return html;
 
-},_fetch);
+}, _fetch);
 
 // Mobile
 
 export const mobile = (_fetch) => view.get("data/mobile.json", (data) => {
-      
     var html = [];
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         let template = `
             <article class="item item-mobile">
                 <header class="click-item">
@@ -211,13 +202,11 @@ export const mobile = (_fetch) => view.get("data/mobile.json", (data) => {
         `;
         html.push(template);
     }
-    if (!_fetch) 
-    {
+    if (!_fetch) {
         $("#mobile-pagination").pagination({
             pageSize: 5,
             dataSource: html,
-            callback: function (data, pagination) 
-            {
+            callback: function (data, pagination) {
                 $("#mobile").html(data);
             },
         });
@@ -225,7 +214,7 @@ export const mobile = (_fetch) => view.get("data/mobile.json", (data) => {
 
     return html;
 
-},_fetch);
+}, _fetch);
 
 // Marketing
 
@@ -233,8 +222,7 @@ export const marketing = (_fetch) => view.get("data/marketing.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <div class="item item-marketing">
                 <div class="click-item">
@@ -278,16 +266,14 @@ export const marketing = (_fetch) => view.get("data/marketing.json", (data) => {
     document.getElementById("marketing").innerHTML = template.join("");
     return template;
 
-},_fetch);
+}, _fetch);
 
 // News
 
 export const news = (_fetch) => view.get("data/news.json", (data) => {
-      
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <article class="item item-news">
                 <header class="click-item">
@@ -313,7 +299,7 @@ export const news = (_fetch) => view.get("data/news.json", (data) => {
     document.getElementById("news").innerHTML = template.join("");
     return template;
 
-},_fetch);
+}, _fetch);
 
 // Team
 
@@ -321,8 +307,7 @@ export const team = (_fetch) => view.get("data/team.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <article class="item item-team">
                 <header class="click-item">
@@ -340,8 +325,7 @@ export const team = (_fetch) => view.get("data/team.json", (data) => {
 
     document.getElementById("team").innerHTML = template.join("");
     return template;
-    
-},_fetch);
+}, _fetch);
 
 // iframes
 
@@ -349,8 +333,7 @@ export const iframes = (_fetch) => view.get("data/iframes.json", (data) => {
 
     let template = [];
 
-    for (let i = 0; i < data.length; i++) 
-    {
+    for (let i = 0; i < data.length; i++) {
         template.push(`
             <div class="modal fade iframe_modal support_iframe" id="${data[i].name}">
                 <div class="modal-dialog modal-support modal-dialog-centered">
@@ -368,11 +351,9 @@ export const iframes = (_fetch) => view.get("data/iframes.json", (data) => {
             </div>
         `);
     }
-    
     document.getElementById("iframes").innerHTML = template.join('');
     return template;
-    
-},_fetch);
+}, _fetch);
 
 // Interstitial
 export const interstitial = (_fetch) => view.get("data/interstitial.json", (data) => {
@@ -399,7 +380,7 @@ export const interstitial = (_fetch) => view.get("data/interstitial.json", (data
     `);
 
     let interstitial = document.createElement("div");
-        interstitial.setAttribute("id", "interstitial");
+    interstitial.setAttribute("id", "interstitial");
     document.body.appendChild(interstitial);
 
     document.getElementById("interstitial").innerHTML = template;
@@ -407,7 +388,7 @@ export const interstitial = (_fetch) => view.get("data/interstitial.json", (data
 
     return template;
 
-},_fetch);
+}, _fetch);
 
 // Version
 
@@ -420,4 +401,12 @@ export const version = (_fetch) => view.get("package.json", (data) => {
     document.getElementById("version").innerHTML = template.join();
     return template;
 
-},_fetch);
+}, _fetch);
+
+//Contact
+
+if (window.location.href.indexOf("contact") > -1) {
+    $(document).ready(function () {
+        $('#contactForm').modal('show');
+    });
+}
