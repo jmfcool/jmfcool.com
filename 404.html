@@ -13,6 +13,13 @@
                     if(p[i] == s[3])
                     {
                         window.location.href = 'https://jmfcool.com/#' + s[3];
+                        if(window.location.href = 'https://jmfcool.com/#' + s[3])
+                        {   
+                            $('#contactForm').on('shown.bs.modal', function () 
+                            {
+                                $('#contact').trigger('focus')
+                            })
+                        }
                         break;
                     }
                     else if(p[i] == s[4])
