@@ -63,9 +63,6 @@ subject.init = () => {
 
 window.onload = () => {
 
-    var s = window.location.href.split('/');
-    window.location.href = 'https://jmfcool.com/#' + s[3];
-
     hash.init();
     document.getElementsByClassName('date')[0].innerHTML = date.current();
     subject.init();
