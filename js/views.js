@@ -406,12 +406,7 @@ export const version = (_fetch) => view.get("package.json", (data) => {
 //Contact
 
 if (window.location.href.indexOf("contact") > -1) {
-
-    $(window).load(function(){
+    $(document).ready(function () {
         $('#contactForm').modal('show');
     });
-
-    //$(document).ready(function () {
-    //    $('#contactForm').modal('show');
-    //});
 }
