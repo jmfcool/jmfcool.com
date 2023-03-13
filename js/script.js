@@ -108,10 +108,3 @@ $('.cookies .accept').click(function()
 });
 
 /* End of Set Cookie for Accept */
-//Contact
-
-if (window.location.href.indexOf("contact") > -1) {
-    $(document).ready(function () {
-        $('#contactForm').modal('show');
-    });
-}
