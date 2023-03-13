@@ -402,11 +402,3 @@ export const version = (_fetch) => view.get("package.json", (data) => {
     return template;
 
 }, _fetch);
-
-//Contact
-
-if (window.location.href.indexOf("contact") > -1) {
-    $(document).ready(function () {
-        $('#contactForm').modal('show');
-    });
-}
