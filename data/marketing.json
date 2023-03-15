@@ -80,6 +80,20 @@
                 ]
             },
             {
+                "name": "site.jmfcool.com",
+                "link": "https://site.jmfcool.com",
+                "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Search",
+                    "Social"
+                ]
+            },
+            {
                 "name": "market.jmfcool.com",
                 "link": "https://market.jmfcool.com",
                 "date": "Present",
