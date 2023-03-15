@@ -408,6 +408,7 @@ export const version = (_fetch) => view.get("package.json", (data) => {
 if (window.location.href.indexOf("contact") > -1) {
     $(document).ready(function() {
         $('#contactForm').modal('show');
-        setTimeout(() => $('.required').removeClass('error'), 2000);
+        setTimeout(() => $('.required').removeClass('error'), 600);
+        setTimeout(() => $('#interstitial').remove(), 500);
     });
 }
