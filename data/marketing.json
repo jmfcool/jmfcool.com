@@ -22,8 +22,7 @@
                 "date": "2016",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -41,8 +40,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Remarketing"
@@ -54,8 +52,7 @@
                 "date": "2016",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Remarketing"
@@ -68,13 +65,12 @@
         "target": "landingpages",
         "items": [
             {
-                "name": "mobile.jmfcool.com",
-                "link": "https://mobile.jmfcool.com",
-                "date": "2021",
+                "name": "site.jmfcool.com",
+                "link": "https://site.jmfcool.com",
+                "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic",
@@ -83,9 +79,23 @@
                 ]
             },
             {
-                "name": "site.jmfcool.com",
-                "link": "https://site.jmfcool.com",
+                "name": "skate.jmfcool.com",
+                "link": "https://skate.jmfcool.com/",
                 "date": "Present",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
+                "tags": [
+                    "Organic",
+                    "Social"
+                ]
+            },
+            {
+                "name": "mobile.jmfcool.com",
+                "link": "https://mobile.jmfcool.com",
+                "date": "2021",
                 "skills": [
                     "HTML",
                     "CSS",
@@ -241,8 +251,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -255,8 +264,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -268,8 +276,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -277,12 +284,11 @@
             },
             {
                 "name": "Stopwatch",
-                "link": "https://projects.jmfcool.com/sandbox/stopwatch",
+                "link": "ttps://projects.jmfcool.com/sandbox/stopwatch",
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -294,8 +300,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -308,8 +313,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -321,8 +325,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -334,8 +337,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -347,8 +349,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -360,8 +361,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -373,8 +373,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -386,8 +385,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -399,8 +397,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -412,8 +409,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -425,8 +421,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -438,8 +433,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -451,8 +445,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
@@ -464,8 +457,7 @@
                 "date": "Present",
                 "skills": [
                     "HTML",
-                    "CSS",
-                    "JS"
+                    "CSS"
                 ],
                 "tags": [
                     "Organic"
