@@ -51,8 +51,8 @@ describe("tags", () => {
         expect(document.getElementsByTagName("footer").length).to.equal(1);
     });
     
-    it("has 8 script", () => {
-        expect(document.getElementsByTagName("script").length).to.equal(8);
+    it("has 9 script", () => {
+        expect(document.getElementsByTagName("script").length).to.equal(9);
     });
 
 });

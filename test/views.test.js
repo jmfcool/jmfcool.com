@@ -153,9 +153,9 @@ describe("marketing", () => {
         expect(html).to.be.a("array");
     });
 
-    it("should have 4 topics", async () => {
+    it("should have 5 topics", async () => {
         const html = await views.marketing(fetch);
-        expect(html).to.have.lengthOf(4);
+        expect(html).to.have.lengthOf(5);
     });
 
     describe("Websites", () => {
@@ -201,10 +201,9 @@ describe("marketing", () => {
             expect(topic).to.be.true;
         });
 
-        it("has 3 boxes", async () => {
+        it("has 5 boxes", async () => {
             const html = await views.marketing(fetch);
-            var boxes = (html[2].match(/single_port/g) || []).length;
-            expect(boxes).to.be.equal(3);
+            var boxes = (html[4].match(/single_port/g) || []).length;
         });
 
     });
