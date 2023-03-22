@@ -197,12 +197,13 @@ describe("marketing", () => {
         it("has container", async () => {
             const html = await views.marketing(fetch);
             const text = 'laanding Pages';
-            const topic = (html[2]?.includes(text)) ? true : false;
+            const topic = (html[3]?.includes(text)) ? true : false;
         });
 
         it("has 5 boxes", async () => {
             const html = await views.marketing(fetch);
             var boxes = (html[4].match(/single_port/g) || []).length;
+            console.log(boxes.lenth);
             expect(boxes).to.be.lessThanOrEqual;
         });
 
