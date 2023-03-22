@@ -196,11 +196,8 @@ describe("marketing", () => {
 
         it("has container", async () => {
             const html = await views.marketing(fetch);
-            console.log('html', html);
             const text = 'laanding Pages';
-            const topic = (html[3]?.includes(text)) ? true : false;
-            //console.log('topic - landing pages', html/text/);
-            console.log('topic',topic);
+            const topic = (html[2]?.includes(text)) ? true : false;
         });
 
         it("has 5 boxes", async () => {
