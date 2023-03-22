@@ -198,9 +198,9 @@ describe("marketing", () => {
             const html = await views.marketing(fetch);
             console.log('html', html);
             const text = 'laanding Pages';
-            const topic = (html[1]?.includes(text)) ? true : false;
-            console.log('topic - landing pages', topic);
-            //console.log('fetch',fetch);
+            const topic = (html[3]?.includes(text)) ? true : false;
+            //console.log('topic - landing pages', html/text/);
+            console.log('topic',topic);
         });
 
         it("has 5 boxes", async () => {
