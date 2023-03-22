@@ -199,7 +199,7 @@ describe("marketing", () => {
             const text = 'laanding Pages';
             const topic = (html[1]?.includes(text)) ? true : false;
             console.log('topic - landing pages', topic);
-            expect(topic).to.be.lessThanOrEqual;
+            console.log('fetch',fetch);
         });
 
         it("has 5 boxes", async () => {
