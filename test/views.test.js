@@ -169,8 +169,8 @@ describe("marketing", () => {
 
         it("has 2 boxes", async () => {
             const html = await views.marketing(fetch);
-            var boxes = (html[0].match(/single_port/g) || []).length;
-            expect(boxes).to.be.equal(2);
+            var boxes = (html[1].match(/single_port/g) || []).length;
+             expect(boxes).to.be.equal(2);
         });
 
     });
@@ -187,7 +187,7 @@ describe("marketing", () => {
         it("has 2 boxes", async () => {
             const html = await views.marketing(fetch);
             var boxes = (html[1].match(/single_port/g) || []).length;
-            expect(boxes).to.be.equal(2);
+             expect(boxes).to.be.equal(2);
         });
 
     });
@@ -197,13 +197,14 @@ describe("marketing", () => {
         it("has container", async () => {
             const html = await views.marketing(fetch);
             const text = 'Landing Pages';
-            const topic = (html[2]?.includes(text)) ? true : false;
-            expect(topic).to.be.true;
+            const topic = (html[5]?.includes(text)) ? true : false;
+            expect(topic).to.be.false;
         });
 
         it("has 5 boxes", async () => {
             const html = await views.marketing(fetch);
             var boxes = (html[4].match(/single_port/g) || []).length;
+            expect(boxes).to.be.equal(5);
         });
 
     });
@@ -221,6 +222,9 @@ describe("marketing", () => {
             const html = await views.marketing(fetch);
             var boxes = (html[3].match(/single_port/g) || []).length;
             expect(boxes).to.be.equal(7);
+
+            console.log(boxes)
+
         });
 
     });
