@@ -89,152 +89,155 @@ describe("menu", () => {
     });
 
 });
+describe("pages", () => {
 
-describe("carousel", () => {
+    describe("carousel", () => {
 
-    it("should be an array", async () => {
-        const html = await views.carousel(fetch);
-        expect(html).to.be.a("array");
+        it("should be an array", async () => {
+            const html = await views.carousel(fetch);
+            expect(html).to.be.a("array");
+        });
+    
+        it("should have a carousel", async () => {
+            const html = await views.carousel(fetch);
+            expect(html).to.have.lengthOf(1);
+        });
+    
+        describe("about", () => {
+
+            it("should be an array", async () => {
+                const html = await views.about(fetch);
+                expect(html).to.be.a("array");
+            });
+        
+            it("should have about page", async () => {
+                const html = await views.menu(fetch);
+                expect(html).to.have.lengthOf(1);
+            });
+        
+        });
+        
+        describe("services", () => {
+        
+            it("should be an array", async () => {
+                const html = await views.services(fetch);
+                expect(html).to.be.a("array");
+            });
+        
+            it("should have 20 articles", async () => {
+                const html = await views.services(fetch);
+                expect(html).to.have.lengthOf(20);
+            });
+        
+        });
+        
+        describe("mobile", () => {
+        
+            it("should be an array", async () => {
+                const html = await views.mobile(fetch);
+                expect(html).to.be.a("array");
+            });
+        
+            it("should have 15 articles", async () => {
+                const html = await views.mobile(fetch);
+                expect(html).to.have.lengthOf(15);
+            });
+        
+        });        
+
     });
 
-    it("should have a carousel", async () => {
-        const html = await views.carousel(fetch);
-        expect(html).to.have.lengthOf(1);
-    });
+    describe("marketing", () => {
 
-});
-
-describe("about", () => {
-
-    it("should be an array", async () => {
-        const html = await views.about(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have about page", async () => {
-        const html = await views.menu(fetch);
-        expect(html).to.have.lengthOf(1);
-    });
-
-});
-
-describe("services", () => {
-
-    it("should be an array", async () => {
-        const html = await views.services(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have 20 articles", async () => {
-        const html = await views.services(fetch);
-        expect(html).to.have.lengthOf(20);
-    });
-
-});
-
-describe("mobile", () => {
-
-    it("should be an array", async () => {
-        const html = await views.mobile(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have 15 articles", async () => {
-        const html = await views.mobile(fetch);
-        expect(html).to.have.lengthOf(15);
-    });
-
-});
-
-describe("marketing", () => {
-
-    it("should be an array", async () => {
-        const html = await views.marketing(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have 5 topics", async () => {
-        const html = await views.marketing(fetch);
-        expect(html).to.have.lengthOf(5);
-    });
-
-    describe("Websites", () => {
-
-        it("has container", async () => {
+        it("should be an array", async () => {
             const html = await views.marketing(fetch);
-            const text = 'Websites';
-            const topic = (html[0]?.includes(text)) ? true : false;
-            expect(topic).to.be.true;
+            expect(html).to.be.a("array");
         });
 
-        it("has 2 boxes", async () => {
+        it("should have 5 topics", async () => {
             const html = await views.marketing(fetch);
-            var boxes = (html[1].match(/single_port/g) || []).length;
-             expect(boxes).to.be.equal(2);
+            expect(html).to.have.lengthOf(5);
         });
 
-    });
+        describe("Websites", () => {
 
-    describe("Emails a", () => {
+            it("has container", async () => {
+                const html = await views.marketing(fetch);
+                const text = 'Websites';
+                const topic = (html[0]?.includes(text)) ? true : false;
+                expect(topic).to.be.true;
+            });
 
-        it("has container", async () => {
-            const html = await views.marketing(fetch);
-            const text = 'Emails';
-            const topic = (html[1]?.includes(text)) ? true : false;
-            expect(topic).to.be.true;
+            it("has 2 boxes", async () => {
+                const html = await views.marketing(fetch);
+                var boxes = (html[1].match(/single_port/g) || []).length;
+                expect(boxes).to.be.equal(2);
+            });
+
         });
 
-        it("has 2 boxes", async () => {
-            const html = await views.marketing(fetch);
-            var boxes = (html[1].match(/single_port/g) || []).length;
-             expect(boxes).to.be.equal(2);
+        describe("Emails", () => {
+
+            it("has container", async () => {
+                const html = await views.marketing(fetch);
+                const text = 'Emails';
+                const topic = (html[1]?.includes(text)) ? true : false;
+                expect(topic).to.be.true;
+            });
+
+            it("has 2 boxes", async () => {
+                const html = await views.marketing(fetch);
+                var boxes = (html[1].match(/single_port/g) || []).length;
+                expect(boxes).to.be.equal(2);
+            });
+
         });
 
+        describe("Landing Pages", () => {
+
+            it("has container", async () => {
+                const html = await views.marketing(fetch);
+                const text = 'Landing Page';
+                const topic = (html[0]?.includes(text)) ? true : false;
+                expect(topic).to.be.false;
+            });
+
+            it("has 2 boxes", async () => {
+                const html = await views.marketing(fetch);
+                var boxes = (html[1].match(/single_port/g) || []).length;
+                expect(boxes).to.be.equal(2);
+            });
+
+        });       
+
     });
 
-    describe("Landing Pages", () => {
+    describe("news", () => {
 
-        it("has container", async () => {
-            const html = await views.marketing(fetch);
-            const text = 'laanding Pages';
-            const topic = (html[3]?.includes(text)) ? true : false;
+        it("should be an array", async () => {
+            const html = await views.news(fetch);
+            expect(html).to.be.a("array");
         });
-
-        it("has 5 boxes", async () => {
-            const html = await views.marketing(fetch);
-            var boxes = (html[4].match(/single_port/g) || []).length;
-            console.log(boxes.lenth);
-            expect(boxes).to.be.lessThanOrEqual;
+    
+        it("should have a news article", async () => {
+            const html = await views.news(fetch);
+            expect(html).to.have.lengthOf(1);
         });
-
+    
     });
-
-});
-
-describe("news", () => {
-
-    it("should be an array", async () => {
-        const html = await views.news(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have a news article", async () => {
-        const html = await views.news(fetch);
-        expect(html).to.have.lengthOf(1);
-    });
-
-});
-
-describe("team", () => {
-
-    it("should be an array", async () => {
-        const html = await views.team(fetch);
-        expect(html).to.be.a("array");
-    });
-
-    it("should have 3 team members", async () => {
-        const html = await views.team(fetch);
-        expect(html).to.have.lengthOf(3);
+    
+    describe("team", () => {
+    
+        it("should be an array", async () => {
+            const html = await views.team(fetch);
+            expect(html).to.be.a("array");
+        });
+    
+        it("should have 3 team members", async () => {
+            const html = await views.team(fetch);
+            expect(html).to.have.lengthOf(3);
+        });
+    
     });
 
 });
