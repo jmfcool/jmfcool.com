@@ -52,14 +52,14 @@ h5 a:hover { color: var(--baseColor); }
 {
 	display: none;
 	position: fixed;
-	bottom: 25px;
-	right: 15px;
+	bottom: 35px;
+	right: 25px;
 	z-index: 99;
 	font-size: 18px;
 	border: none;
 	outline: none;
 	background-color: var(--baseColor);
-	color: white;
+	color: var(--lightColor);
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 4px;
