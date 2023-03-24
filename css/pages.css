@@ -109,6 +109,7 @@
 .page 
 { 
 	display: none; 
+	z-index: 50;
 }
 .page-active 
 { 

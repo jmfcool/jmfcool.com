@@ -21,14 +21,25 @@
 	{ 
 		/*box-shadow: 0 0 30px 10px #e1e1e1;*/ 
 		width: 100%; 
-		position: relative;
 		-moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
 		-khtml-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
 		-webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
 		box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		padding: 5px;
+		background-color: var(--lightColor);
+		z-index: 100;
 	}
 
-	.header-wrapper { position: relative; width: 940px; height: 152px; }
+	.header-wrapper 
+	{
+		position: relative;
+		width: 940px; 
+		height: 152px; 
+	}
 
 	#header-logo { position: absolute; z-index: 200; top: 50px; left: 50px; }
 	#header-logo .logo { position: absolute; top: 10px; left: 72px; }

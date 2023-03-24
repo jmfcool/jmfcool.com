@@ -94,7 +94,7 @@ h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color
 .fb_iframe_widget{left:-5px}@media screen and (max-width:800px){.header{position:relative;background:0}
 .header .logo.affiliates{display:none}#header-logo{cursor:pointer;position:relative;top:45px;display:block;width:265px;text-align:center;margin:0 auto;padding-top:150px}
 #header-logo .emblem{position:absolute;top:0;left:0}#header-logo .logo{position:absolute;top:10px;left:71px}
-.hash.active{background-color:#a1a1a1;color:#fff !important}}@media screen and (min-width:800px){.header{width:100%;position:relative;-moz-box-shadow:0 5px 8px rgba(0,0,0,0.3);-khtml-box-shadow:0 5px 8px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 8px rgba(0,0,0,0.3);box-shadow:0 5px 8px rgba(0,0,0,0.3)}
+.hash.active{background-color:#a1a1a1;color:#fff !important}}@media screen and (min-width:800px){.header{width:100%;-moz-box-shadow:0 5px 8px rgba(0,0,0,0.3);-khtml-box-shadow:0 5px 8px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 8px rgba(0,0,0,0.3);box-shadow:0 5px 8px rgba(0,0,0,0.3);position:-webkit-sticky;position:sticky;top:0;padding:5px;background-color:var(--lightColor);z-index:100}
 .header-wrapper{position:relative;width:940px;height:152px}#header-logo{position:absolute;z-index:200;top:50px;left:50px}
 #header-logo .logo{position:absolute;top:10px;left:72px}#header-logo .logo img{cursor:pointer}
 .logo.affiliates{position:absolute;top:30px;right:100px}}#header-logo .emblem{position:absolute;top:-8px;animation:emblem 10s infinite linear forwards}
@@ -142,7 +142,7 @@ h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color
 #page-error{padding:0 10px}}@media screen and (min-width:800px){.content{overflow:hidden;width:940px;position:relative}
 .content-wrapper{box-shadow:0 0 20px 0 #b5b5b5;margin:0 20px 20px 20px}#page-home .container{padding:0}
 #page-home{padding-top:30px}#page-error{padding:60px 80px 55px 80px}#page-mobile .app-icon{width:170px;height:170px;float:left}
-.head-wrapper{padding:15px}.head-wrapper p{margin:0;padding:0}}.page{display:none}
+.head-wrapper{padding:15px}.head-wrapper p{margin:0;padding:0}}.page{display:none;z-index:50}
 .page-active{display:block;position:relative}.content{z-index:5}.head-wrapper h2,.head-wrapper p{color:var(--darkColor)}
 #page-about .head-wrapper{padding-bottom:0 !important}.item-about{margin:0;padding:0 15px 15px 15px}
 .item-news ul{padding:20px 0 30px 0}.item-news ul li{text-align:left;margin-bottom:10px}
