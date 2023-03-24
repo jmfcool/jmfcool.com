@@ -88,11 +88,10 @@ strong{font-weight:bold}em{font-style:italic}img{display:block;border:0}ul,li{li
 p{font-size:18px;text-align:left;padding:10px 0;line-height:30px}h2{font-size:35px;font-weight:bold;text-align:left;margin:10px 0 20px 0;color:#0a2d81}
 h3{font-size:20px;font-weight:bold;text-align:left;margin-top:10px;clear:both}h4{font-size:12px;font-weight:normal;text-align:left;margin:5px 0 20px 0}
 h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color:var(--baseColor)}
-.anchor{display:none;position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;cursor:pointer;padding:10px 20px;color:var(--lightColor);background:var(--secondaryColor);border:0;border-radius:25px;font-size:12px;font-weight:normal}
-.anchor:hover{background:var(--baseColor);color:var(--lightColor);text-decoration:none}
-#googlebot{background:var(--baseColor);color:var(--lightColor)}#googlebot p{font-size:17px;text-align:center;margin:0 auto;padding:10px}
-.fb_iframe_widget{left:-5px}@media screen and (max-width:800px){.header{position:relative;background:0}
-.header .logo.affiliates{display:none}#header-logo{cursor:pointer;position:relative;top:45px;display:block;width:265px;text-align:center;margin:0 auto;padding-top:150px}
+.anchor{display:none}#googlebot{background:var(--baseColor);color:var(--lightColor)}
+#googlebot p{font-size:17px;text-align:center;margin:0 auto;padding:10px}.fb_iframe_widget{left:-5px}
+@media screen and (max-width:800px){.header{position:relative;background:0}.header .logo.affiliates{display:none}
+#header-logo{cursor:pointer;position:relative;top:45px;display:block;width:265px;text-align:center;margin:0 auto;padding-top:150px}
 #header-logo .emblem{position:absolute;top:0;left:0}#header-logo .logo{position:absolute;top:10px;left:71px}
 .hash.active{background-color:#a1a1a1;color:#fff !important}}@media screen and (min-width:800px){.header{width:100%;-moz-box-shadow:0 5px 8px rgba(0,0,0,0.3);-khtml-box-shadow:0 5px 8px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 8px rgba(0,0,0,0.3);box-shadow:0 5px 8px rgba(0,0,0,0.3);position:-webkit-sticky;position:sticky;top:0;padding:5px;background-color:var(--lightColor);z-index:100}
 .header-wrapper{position:relative;width:940px;height:152px}#header-logo{position:absolute;z-index:200;top:50px;left:50px}
