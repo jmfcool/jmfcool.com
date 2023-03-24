@@ -46,37 +46,29 @@ h5 a { color: var(--darkColor); font-weight: bold; }
 h5 a:hover { color: var(--baseColor); }
 
 /* End of Common */
-/* Back to Top
+/* Back to Top */
 
 .anchor 
 {
 	display: none;
 	position: fixed;
-	top: 20px;
-	left: 50%;
-	transform: translateX(-50%);
-	z-index: 1000;
-	cursor: pointer;
-	padding: 10px 20px;
-	color: var(--lightColor);
-	background: var(--secondaryColor);
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
 	border: none;
-	border-radius: 25px;
-	font-size: 12px;
-	font-weight: normal;
+	outline: none;
+	background-color: var(--baseColor);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
 }
 .anchor:hover
 {
-	background: var(--baseColor);
+	background: var(--secondaryColor);
 	color: var(--lightColor);
 	text-decoration: none;
-}
-
-/* Back to Top */
-
-.anchor
-{
-	display: none;
 }
 
 /* End of Back to Top */
