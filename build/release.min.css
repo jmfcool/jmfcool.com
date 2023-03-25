@@ -88,7 +88,7 @@ strong{font-weight:bold}em{font-style:italic}img{display:block;border:0}ul,li{li
 p{font-size:18px;text-align:left;padding:10px 0;line-height:30px}h2{font-size:35px;font-weight:bold;text-align:left;margin:10px 0 20px 0;color:#0a2d81}
 h3{font-size:20px;font-weight:bold;text-align:left;margin-top:10px;clear:both}h4{font-size:12px;font-weight:normal;text-align:left;margin:5px 0 20px 0}
 h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color:var(--baseColor)}
-.anchor{display:none;position:fixed;bottom:35px;right:25px;z-index:99;font-size:18px;border:0;outline:0;background-color:var(--baseColor);color:var(--lightColor);cursor:pointer;padding:15px;border-radius:4px}
+.anchor{display:none;position:fixed;bottom:45px;right:25px;z-index:99;font-size:18px;border:0;outline:0;background-color:var(--baseColor);color:var(--lightColor);cursor:pointer;padding:15px;border-radius:4px}
 .anchor:hover{background:var(--secondaryColor);color:var(--lightColor);text-decoration:none}
 #googlebot{background:var(--baseColor);color:var(--lightColor)}#googlebot p{font-size:17px;text-align:center;margin:0 auto;padding:10px}
 .fb_iframe_widget{left:-5px}@media screen and (max-width:800px){.header{position:relative;background:0}

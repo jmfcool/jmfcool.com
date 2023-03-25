@@ -52,7 +52,7 @@ h5 a:hover { color: var(--baseColor); }
 {
 	display: none;
 	position: fixed;
-	bottom: 35px;
+	bottom: 45px;
 	right: 25px;
 	z-index: 99;
 	font-size: 18px;
