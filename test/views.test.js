@@ -216,8 +216,8 @@ describe("pages", () => {
             it("has container", async () => {
                 const html = await views.marketing(fetch);
                 const text = 'Web Applications';
-                const topic = (html[4]?.includes(text)) ? true : false;
-                expect(topic).to.be.false;
+                const topic = (html[3]?.includes(text)) ? true : false;
+                expect(topic).to.be.true;
             });
 
             it("has 7 boxes", async () => {
