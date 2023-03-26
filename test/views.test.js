@@ -202,7 +202,7 @@ describe("pages", () => {
                 expect(topic).to.be.true;
             });
 
-            it("has 2 boxes", async () => {
+            it("has 5 boxes", async () => {
                 const html = await views.marketing(fetch);
                 var boxes = (html[2].match(/single_port/g) || []).length;
                 expect(boxes).to.be.equal(5);
@@ -237,7 +237,7 @@ describe("pages", () => {
                 expect(topic).to.be.true;
             });
 
-            it("has 7 boxes", async () => {
+            it("has 19 boxes", async () => {
                 const html = await views.marketing(fetch);
                 var boxes = (html[4].match(/single_port/g) || []).length;
                 expect(boxes).to.be.equal(19);
