@@ -64,7 +64,6 @@ subject.init = () => {
 window.onload = () => {
 
     hash.init();
-    document.getElementsByClassName('date')[0].innerHTML = date.current();
     subject.init();
 
     /* Carousel */
