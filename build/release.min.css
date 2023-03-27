@@ -2,7 +2,7 @@
 section.cookies h4{padding:10px 45px 25px 45px}section.cookies a.accept{width:auto;text-align:center}
 }@media screen and (min-width:800px){section.cookies{display:flex}section.cookies h4{float:left;width:80%;padding:15px}
 section.cookies a.accept{float:right;width:15%;margin:10px 50px 0 0 !important}}section.cookies{z-index:100;position:fixed;bottom:0;width:100%;background-color:var(--lightColor);align-items:center;padding:30px 10px;box-shadow:rgba(0,0,0,0.24) 0 3px 8px;display:none}
-section.cookies h4{font-size:16px;text-align:center;margin:0;width:auto}section.cookies a.accept{font-size:16px;font-weight:700;text-align:center;margin:0;padding:10px 20px;background:var(--secondaryColor);color:var(--lightColor);border-radius:50px}
+section.cookies h4{font-size:16px;text-align:center;margin:0}section.cookies a.accept{font-size:16px;font-weight:700;text-align:center;margin:0;padding:10px 20px;background:var(--secondaryColor);color:var(--lightColor);border-radius:50px}
 section.cookies a.accept:hover{background:var(--baseColor);text-decoration:none}@media screen and (max-width:800px){.item-mobile .item-wrapper{padding:0 15px 15px 15px}
 }.items{padding:0;background-color:#fff}.items .items-wrapper{margin:0 auto}.items-content{padding:0}
 .items-content .item .click-item{padding:5px 15px;border:0}.items-content .item .click-item a{color:var(--darkColor);font-family:var(--baseHeading);font-weight:600;font-size:20px;display:block;text-decoration:none;padding:12.5px 0;position:relative;padding-right:20px;text-align:left}
