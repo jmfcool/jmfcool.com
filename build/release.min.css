@@ -91,13 +91,14 @@ h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color
 .anchor{display:none;position:fixed;bottom:45px;right:25px;z-index:99;font-size:18px;border:0;outline:0;background-color:var(--baseColor);color:var(--lightColor);cursor:pointer;padding:15px;border-radius:4px}
 .anchor:hover{background:var(--secondaryColor);color:var(--lightColor);text-decoration:none}
 #googlebot{background:var(--baseColor);color:var(--lightColor)}#googlebot p{font-size:17px;text-align:center;margin:0 auto;padding:10px}
-.fb_iframe_widget{left:-5px}@media screen and (max-width:800px){.header{position:relative;background:0}
+.fb_iframe_widget{left:-5px}@media screen and (max-width:800px){.header{position:relative;background:0;box-shadow:rgba(0,0,0,0.24) 0 3px 8px}
 .header .logo.affiliates{display:none}#header-logo{cursor:pointer;position:relative;top:45px;display:block;width:265px;text-align:center;margin:0 auto;padding-top:150px}
 #header-logo .emblem{position:absolute;top:0;left:0}#header-logo .logo{position:absolute;top:10px;left:71px}
-.hash.active{background-color:#a1a1a1;color:#fff !important}}@media screen and (min-width:800px){.header{width:100%;-moz-box-shadow:0 5px 8px rgba(0,0,0,0.3);-khtml-box-shadow:0 5px 8px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 8px rgba(0,0,0,0.3);box-shadow:0 5px 8px rgba(0,0,0,0.3);position:-webkit-sticky;position:sticky;top:0;padding:5px;background-color:var(--lightColor);z-index:100}
+.hash.active{background-color:#a1a1a1;color:#fff !important}}@media screen and (min-width:800px){.header{width:100%;-moz-box-shadow:0 5px 8px rgba(0,0,0,0.3);-khtml-box-shadow:0 5px 8px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 8px rgba(0,0,0,0.3);box-shadow:0 5px 8px rgba(0,0,0,0.3)}
 .header-wrapper{position:relative;width:940px;height:152px}#header-logo{position:absolute;z-index:200;top:50px;left:50px}
 #header-logo .logo{position:absolute;top:10px;left:72px}#header-logo .logo img{cursor:pointer}
-.logo.affiliates{position:absolute;top:30px;right:100px}}#header-logo .emblem{position:absolute;top:-8px;animation:emblem 10s infinite linear forwards}
+.logo.affiliates{position:absolute;top:30px;right:100px}}.header{position:-webkit-sticky;position:sticky;top:0;padding:5px;background-color:var(--lightColor);z-index:100}
+.header-wrapper{position:relative}#header-logo .emblem{position:absolute;top:-8px;animation:emblem 10s infinite linear forwards}
 @keyframes emblem{from{transform:rotate(0)}to{transform:rotate(360deg)}}.modal-backdrop.fade.show{z-index:500}
 .support_iframe .modal-content iframe{vertical-align:middle}.iframe_modal .modal-support{max-width:1140px}
 .iframe_modal .modal-header{border-bottom:0;padding:0}.iframe_modal .modal-header .close{position:absolute;right:10px;top:-20px;z-index:99999;font-size:24px;opacity:1}
