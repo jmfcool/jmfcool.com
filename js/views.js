@@ -280,6 +280,7 @@ export const news = (_fetch) => view.get("data/news.json", (data) => {
                     <a href="javascript://" data-target="#${data[i].target}" class="collapsed" data-toggle="collapse" alt="">${data[i].name}</a>
                 </header>
                 <div id="${data[i].target}" class="collapse fade contents" data-parent="#news">
+                    <h5>${data[i].release}</h5>
                     <div class="item-wrapper">
                         ${Array(data[i].text.length).fill().map((item, l) => `<p>${data[i].text[l]}</p>`).join("")}
                         <ul>
