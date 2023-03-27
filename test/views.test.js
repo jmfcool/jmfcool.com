@@ -256,7 +256,7 @@ describe("pages", () => {
     
         it("should have a news article", async () => {
             const html = await views.news(fetch);
-            expect(html).to.have.lengthOf(1);
+            expect(html).to.have.lengthOf(2);
         });
     
     });

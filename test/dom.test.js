@@ -43,8 +43,8 @@ describe("tags", () => {
         expect(document.getElementsByTagName("header").length).to.equal(1);
     });
     
-    it("has 2 sections", () => {
-        expect(document.getElementsByTagName("section").length).to.equal(2);
+    it("has 3 sections", () => {
+        expect(document.getElementsByTagName("section").length).to.equal(3);
     });
     
     it("has 1 footer", () => {
