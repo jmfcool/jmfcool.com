@@ -3,7 +3,7 @@ import { hash } from "./hash.js";
 import { cookies } from "./cookies.js";
 import * as views from "./views.js";
 import { top } from "./top.js";
-import { bottom } from "./bottom.js";
+//import { bottom } from "./bottom.js";
 import { validation } from "./validation.js";
 
 window.onhashchange = () => {
@@ -26,8 +26,10 @@ views.iframes();
 views.interstitial();
 views.version();
 top.init();
-bottom.init();
+//bottom.init();
 validation.init();
+
+$('html,body').animate({scrollTop: document.body.scrollHeight},"fast");
 
 // Subject
 
