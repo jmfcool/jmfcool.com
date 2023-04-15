@@ -3,7 +3,7 @@ const view = {};
 view.get = async (file, callback, _fetch, ext = false) => {
 
     const http = _fetch ?? fetch;
-    const base = _fetch && ? "https://jmfcool.com/" : "";
+    const base = _fetch ?? "https://jmfcool.com/";
 
     try 
     {
