@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 800px) 
 {
-	.header { position: relative; background: none; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+	.header { position: relative; background: black; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
 	.header .logo.affiliates { display: none; }
 
 	#header-logo { cursor: pointer; position: relative; top: 45px; display: block; width: 265px; text-align: center; margin: 0 auto; padding-top: 150px; }
@@ -32,7 +32,6 @@
 
 	.header-wrapper 
 	{
-		position: relative;
 		width: 940px; 
 		height: 152px; 
 	}
@@ -65,4 +64,23 @@
 @keyframes emblem {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
+}
+
+#greatness
+{
+	background-color: #000000; 
+	position: relative;
+
+}
+
+#greatness a
+{
+	margin: 15px auto; 
+}
+
+#greatness img
+{
+	display: inline;
+	width: 50%; 
+	z-index: 99;
 }
