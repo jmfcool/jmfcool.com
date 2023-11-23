@@ -11,6 +11,10 @@
 
 	.hash.active { background-color: #a1a1a1; color: #ffffff !important; }
 
+	#greatness h5
+	{
+		display: none;
+	}
 	
 }
 
@@ -41,6 +45,14 @@
 	#header-logo .logo img { cursor: pointer; }
 
 	.logo.affiliates { position: absolute; top: 30px; right: 100px; }
+
+	#greatness h5
+	{
+		color: #ffffff;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
 }
 
 /* End of Desktop */
@@ -75,7 +87,7 @@
 
 #greatness a
 {
-	margin: 15px auto; 
+	padding: 15px 0; 
 }
 
 #greatness img
@@ -83,4 +95,6 @@
 	display: inline;
 	width: 50%; 
 	z-index: 99;
+	margin: 15px auto 25px auto;
+	position: relative;
 }
