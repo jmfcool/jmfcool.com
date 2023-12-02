@@ -101,7 +101,7 @@ h5{text-align:left}h5 a{color:var(--darkColor);font-weight:bold}h5 a:hover{color
 .logo.affiliates{position:absolute;top:30px;right:100px}#greatness h5{color:#fff;position:absolute;top:15px;right:15px}
 }.header{position:-webkit-sticky;position:sticky;top:0;padding:5px;background-color:var(--lightColor);z-index:100}
 .header-wrapper{position:relative}#header-logo .emblem{position:absolute;top:-8px;animation:emblem 10s infinite linear forwards}
-@keyframes emblem{from{transform:rotate(0)}to{transform:rotate(360deg)}}#greatness{background-color:#000;position:relative}
+@keyframes emblem{from{transform:rotate(0)}to{transform:rotate(360deg)}}#greatness{background-color:#f8f9fa;position:relative}
 #greatness a{padding:15px 0}#greatness img{display:inline;width:50%;z-index:99;margin:15px auto 25px auto;position:relative}
 .modal-backdrop.fade.show{z-index:500}.support_iframe .modal-content iframe{vertical-align:middle}
 .iframe_modal .modal-support{max-width:1140px}.iframe_modal .modal-header{border-bottom:0;padding:0}
